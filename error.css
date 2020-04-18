@@ -1,0 +1,63 @@
+
+
+  .form-control.error {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 0.8rem;
+  }
+
+  .form-control .error-icon {
+    position: absolute;
+    top: 2.4rem;
+    right: 3.5rem;
+    display: none;
+  }
+
+  .form-control.error .error-icon {
+    display: block;
+  }
+
+  .form-control.error input {
+    border: 1.5px solid  hsl(0, 100%, 74%);
+    margin-bottom: 0.3rem;
+  }
+
+  .form-control small {
+    align-self: flex-end;
+    margin-right: 2rem;
+    margin-bottom: -1rem;
+    font-style: italic;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+    display: none;
+  }
+
+  .form-control.error small {
+    display: block;
+    font-size: 0.7rem;
+  }
+
+  .form-control.error input::placeholder{
+    color: transparent;
+  }
+
+  .form-control.error input[type="email"]::placeholder {
+    color: hsl(0, 100%, 74%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
